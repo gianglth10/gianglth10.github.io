@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | Query Optimization</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <meta
+      name="description"
+      content="Draft notes on query processing and optimization beyond SQL syntax."
+    />
+  </head>
+  <body id="top" data-page="blog">
+    <div id="site-header"></div>
+
+    <main>
+      <section class="page-hero">
+        <p class="section-eyebrow">Case Studies</p>
+        <h1>Query processing and optimization is not just about SQL</h1>
+        <p>
+          A peek into the architecture and stakeholder conversations required to
+          make performance tuning stick.
+        </p>
+      </section>
+
+      <section class="projects blog-section">
+        <article class="project-card blog-card">
+          <div class="project-card__body">
+            <p>
+              I start by documenting the warehouse topology behind each query:
+              file formats, partitioning schemes, catalog policies, and the cost
+              guardrails defined by finance. That context shapes why a CTE or
+              clustering change matters more than a microsecond saved in SQL.
+            </p>
+            <p>
+              The article then tracks the co-design process with engineers and
+              business owners—dashboards that surface skew, narratives that link
+              spend to SLAs, and post-mortems that feed the next review cycle.
+              Future drafts will add screenshots of profiling runs and the
+              checklists we use before promoting optimizations to prod.
+            </p>
+            <div class="project-card__actions">
+              <a class="btn" href="blog.html">Back to blog</a>
+              <a class="btn btn--ghost" href="contact.html">Share feedback</a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+    <script src="assets/js/shared.js"></script>
+  </body>
+</html>

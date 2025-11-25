@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <rect width="120" height="120" rx="18" fill="#0B6E4F"/>
+  <text x="60" y="52" font-family="'Inter', 'Helvetica', sans-serif" font-size="34" fill="#fff" font-weight="600" text-anchor="middle">UEH</text>
+  <rect x="25" y="70" width="70" height="10" fill="#F9C74F" rx="5"/>
+</svg>

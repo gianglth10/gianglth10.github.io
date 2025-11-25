@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120">
+  <rect width="160" height="120" rx="18" fill="#fff" stroke="#002D72" stroke-width="6" />
+  <path
+    d="M40 78 C45 60 62 38 83 44 C92 46 98 55 105 60 C112 65 120 66 124 54 C114 88 86 94 70 94 C54 94 44 90 40 78Z"
+    fill="#B88646"
+  />
+  <circle cx="54" cy="36" r="8" fill="#B88646" />
+  <text x="80" y="82" font-family="'Inter','Helvetica',sans-serif" font-size="34" fill="#002D72" text-anchor="middle" font-weight="700">SMU</text>
+  <text x="80" y="104" font-family="'Inter','Helvetica',sans-serif" font-size="10" fill="#002D72" text-anchor="middle" letter-spacing="0.2em">
+    SINGAPORE
+  </text>
+</svg>
