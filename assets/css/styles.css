@@ -8,7 +8,7 @@
   --border: #e0e3eb;
   --shadow: 0 20px 60px rgba(31, 31, 31, 0.08);
   --project-image-width: 32%;
-  --project-image-height: 300px;
+  --project-image-aspect-ratio: 16 / 9;
 }
 
 * {
@@ -333,8 +333,8 @@ main {
 
 .project-card__image {
   width: 100%;
-  height: var(--project-image-height);
-  background-size: cover;
+  aspect-ratio: var(--project-image-aspect-ratio);
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #fff;
@@ -649,8 +649,23 @@ main {
 }
 
 @media (max-width: 900px) {
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.85rem;
+  }
+
   .site-nav {
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    width: 100%;
+  }
+
+  .site-nav a {
+    border: 1px solid var(--border);
+    font-size: 0.88rem;
+    padding: 0.35rem 0.55rem;
   }
 
   .hero {
@@ -659,6 +674,7 @@ main {
 
   main {
     padding-inline: 1.5rem;
+    padding-top: 180px;
   }
 
   .project-card {
